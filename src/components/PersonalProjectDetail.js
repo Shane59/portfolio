@@ -16,7 +16,7 @@ const PersonalProjectDetail = (props) => {
     return (
       <div className="personal-project-detail-wrapper mt-5 mb-5">
         <h2 className="text-center">{projectDetail[0].data.project_title[0].text}</h2>
-        <div className="row justify-content-center mt-5">
+        <div className="row justify-content-center mt-5 ms-1 me-1">
           <img src={projectDetail[0].data.thumbnail.url} alt="sample" className="col" />
           <div className="col overview-wrapper">
             <div className="mb-5">

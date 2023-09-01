@@ -39,17 +39,26 @@
 }
 
 /* temp css */
+.aboutme-wrapper {
+  padding: 0 16px;
+}
 .img-container {
   height: 600px;
-  background-color: gray;
+  background-image: url('../public/top.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  color: white;
+}
+.profile-img-container {
+  height: 200px;
+  max-width: 330px;
 }
 .profile-img {
-  height: 200px;
   max-width: 300px;
-  background-color: gray;
 }
 .profile-note {
-  max-width: 300px;
+  max-width: 540px;
 }
 .top-60 {
   top: 60%;
@@ -59,7 +68,7 @@
   height: 400px;
 }
 .footer-wrapper {
-  width: 300px;
+  width: 100px;
 }
 .techstack-icon {
   width: 40px;
