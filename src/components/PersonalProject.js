@@ -6,7 +6,7 @@ const PersonalProject = (props) => {
     return (
       <div id='projects' className='mt-5 mb-5'>
         <h2 className='text-center'>Personal Project</h2>
-        <div className='row justify-content-evenly mt-3'>
+        <div className='row justify-content-lg-evenly justify-content-md-evenly justify-content-sm-center justify-content-center mt-3 w-100 ms-auto me-auto'>
           {
             props.personalProjects.map((val, index) => {
               return (
