@@ -9,7 +9,7 @@ function App() {
   const [personalProjects, setPersonalProjects] = useState([]);
   const [isLoading, setIslaoding] = useState(true);
   useEffect(() => {
-    fetch("http://localhost:4000/")
+    fetch("https://shinya-aoi-portofolio-backend.azurewebsites.net/")
       .then(response => response.json())
       .then(data => setPersonalProjects(data))
       .catch(err => console.log(err));
