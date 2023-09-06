@@ -8,7 +8,7 @@ const AboutMe = () => {
       <div className="container">
         <div className="row justify-content-evenly mt-3">
           <div className="col-lg-4 col-md-auto col-sm-12 profile-img-container"><img className="profile-img" src={profileImg} alt="" /></div>
-          <div className="col-lg-8 col-md-auto col-sm-12 profile-note mt-lg-0 mt-md-4 mt-sm-4 mt-4">
+          <div className="col-lg-8 col-md-auto col-sm-12 profile-note mt-lg-0 mt-md-4 mt-sm-4 mt-5">
             <div>
               <h4>Summary</h4>
               <p>I am a dedicated and versatile software engineer with three years of hands-on experience in both front-end and back-end development. My passion lies in tackling challenging problems and creating innovative solutions to enhance our communities. I have a customer-centric mindset, always striving to deliver products and services that exceed expectations.</p>
