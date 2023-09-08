@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
+import RichTextComponents from "./RichTextComponents";
 
 const PersonalProjectDetail = (props) => {
   const projectId = useParams();
@@ -21,7 +22,7 @@ const PersonalProjectDetail = (props) => {
           <div className="col overview-wrapper">
             <div className="mb-5">
               <h3>Overview</h3>
-              <div>{projectDetail[0].data.overview[0].text}</div>
+              <div><RichTextComponents text={projectDetail[0].data.overview}/></div>
             </div>
             <div className="mb-5">
               <h3>Tech Stacks</h3>
