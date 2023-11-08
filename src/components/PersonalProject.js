@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ProjectCard from './ProjectCard';
 
 const PersonalProject = (props) => {
-  if (props.personalProjects !== null) {
+  if (props.personalProjects.length !== 0) {
     return (
       <div id='projects' className='mt-5 mb-5'>
         <h2 className='text-center'>Personal Project</h2>
@@ -23,6 +23,13 @@ const PersonalProject = (props) => {
             })
           }
         </div>
+      </div>
+    )
+  } else {
+    return (
+      <div id='projects' className='mt-5 mb-5'>
+        <h2 className='text-center'>Personal Project</h2>
+        <div className="lds-dual-ring"></div>
       </div>
     )
   }
