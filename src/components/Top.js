@@ -20,8 +20,8 @@ const Top = (props) => {
     <>
       <Header />
       <Hero />
-      <PersonalProject personalProjects={props.personalProjects} />
       <AboutMe />
+      <PersonalProject personalProjects={props.personalProjects} />
       <Footer />
     </>
   )
