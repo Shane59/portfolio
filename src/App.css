@@ -47,7 +47,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  color: #aeaeae;
+  color: #51f0f5;
+}
+.img-container > h2, .img-container > h4 {
+  font-family: 'Nova Square', sans-serif;
 }
 .profile-img-container {
   height: 200px;
